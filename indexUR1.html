@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinePolito-Explorador</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/estilo-nicasio.css">
+    
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark px-4 py-3 sticky-top" data-bs-theme="dark" style="background-color: var(--color-fondo);">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold fs-1" href="index.html">Cine<span class="polito fw-bold fs-1">Polito</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        
+        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a> <!--vincular al html que corresponda-->
+        <a class="nav-link active" aria-current="page" href="indexUR1.html">Explorar</a> <!--vincular al html que corresponda-->
+        <a class="nav-link active" aria-current="page" href="favoritos.html">Mi lista</a> <!--vincular al html que corresponda-->
+        <a class="nav-link active" aria-current="page" href="06_perfil.html">Perfil</a> <!--vincular al html que corresponda-->
+
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container my-5" style="max-width: 1000px;">
+        
+        <h1 class="cine-titulo mb-4">Explorar</h1>
+
+        <div class="mb-4">
+            <div class="position-relative">
+                <span class="position-absolute top-50 start-0 translate-middle-y ps-3 text-muted">
+                    <i class="bi bi-search text-white"></i>
+                </span>
+                <input type="text" class="form-control cine-search-input ps-5" value="Dune" placeholder="Buscar películas...">
+            </div>
+        </div>
+
+        
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h5 class="text-white fs-5 mb-0">Resultados para “Dune”</h5>
+            <span class="cine-subtitulo" style="font-size: 0.85rem;">4 resultados</span>
+        </div>
+
+        
+        <div class="d-flex flex-column gap-3">
+            
+            <!-- Peli1 -->
+            <div class="cine-tarjeta-contenedor d-flex align-items-center justify-content-between p-3">
+                <div class="d-flex align-items-center gap-3">
+                    <img src="images/image1.jpg" alt="Dune Parte Dos" class="rounded-3" style="width: 60px; height: 80px; object-fit: cover;">
+                    <div>
+                        <h6 class="text-white fw-bold mb-1">Dune: Parte Dos</h6>
+                        <p class="cine-subtitulo mb-1" style="font-size: 0.85rem;">2024 · Aventura</p>
+                        <span class="text-warning small fw-bold">★ 8.8</span>
+                    </div>
+                </div>
+                <a href="resenas.html" class="btn cine-btn-ver px-4 py-2">Ver detalle</a><!-- insertar el html correspondiente en 
+                href para que lleve directo a la pagina que no me toco a mi -->
+            </div>
+
+            <!-- Peli2-->
+            <div class="cine-tarjeta-contenedor d-flex align-items-center justify-content-between p-3">
+                <div class="d-flex align-items-center gap-3">
+                    <img src="images/image2.jpg" alt="Dune" class="rounded-3" style="width: 60px; height: 80px; object-fit: cover;">
+                    <div>
+                        <h6 class="text-white fw-bold mb-1">Dune</h6>
+                        <p class="cine-subtitulo mb-1" style="font-size: 0.85rem;">2021 · Ciencia ficción</p>
+                        <span class="text-warning small fw-bold">★ 8.0</span>
+                    </div>
+                </div>
+                <a href="resenas.html" class="btn cine-btn-ver px-4 py-2">Ver detalle</a> <!-- insertar el html correspondiente en 
+                href para que lleve directo a la pagina que no me toco a mi -->
+            </div>
+
+            <!-- Peli3: Duna -->
+            <div class="cine-tarjeta-contenedor d-flex align-items-center justify-content-between p-3">
+                <div class="d-flex align-items-center gap-3">
+                    <img src="images/image3.jpg" alt="Duna" class="rounded-3" style="width: 60px; height: 80px; object-fit: cover;">
+                    <div>
+                        <h6 class="text-white fw-bold mb-1">Duna</h6>
+                        <p class="cine-subtitulo mb-1" style="font-size: 0.85rem;">2000 · Miniserie</p>
+                        <span class="text-warning small fw-bold">★ 7.1</span>
+                    </div>
+                </div>
+                <a href="resenas.html" class="btn cine-btn-ver px-4 py-2">Ver detalle</a> <!-- insertar el html correspondiente en 
+                href para que lleve directo a la pagina que no me toco a mi -->
+            </div>
+
+            <!-- Peli4: Dune Messiah -->
+            <div class="cine-tarjeta-contenedor d-flex align-items-center justify-content-between p-3">
+                <div class="d-flex align-items-center gap-3">
+                    <img src="images/image4.jpg" alt="Dune Messiah" class="rounded-3" style="width: 60px; height: 80px; object-fit: cover;">
+                    <div>
+                        <h6 class="text-white fw-bold mb-1">Dune Messiah</h6>
+                        <p class="cine-subtitulo mb-1" style="font-size: 0.85rem;">Próximamente</p>
+                        <span class="text-warning small fw-bold">★ _._</span>
+                    </div>
+                </div>
+                <a href="resenas.html" class="btn cine-btn-ver px-4 py-2">Ver detalle</a> <!-- insertar el html correspondiente en 
+                href para que lleve directo a la pagina que no me toco a mi -->
+            </div>
+
+        </div>
+    </div>
+
+
+
+<footer class="cine-footer">
+      <div class="container ">
+        <p class="mb-0">Cine<span style="color: var(--color-boton-hover);">Polito</span> 2026 — Jose de Jesus Nicasio Torres</p>
+      </div>
+    </footer>
+   
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

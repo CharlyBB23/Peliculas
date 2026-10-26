@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinePolito-Explorador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark px-4 py-3 sticky-top" data-bs-theme="dark" style="background-color: var(--color-fondo);">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold fs-1" href="index.html">Cine<span class="polito fw-bold fs-1">Polito</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" href="index.html">Inicio</a>
+        <a class="nav-link active" aria-current="page" href="indexUR1.html">Explorar</a>
+        <a class="nav-link" href="favoritos.html">Mi lista</a>
+        <a class="nav-link" href="06_perfil.html">Perfil</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    <main class="contenedor detalle">
+      <div class="poster">
+        <img src="images/dune-poster.jpg" alt="Póster de Dune: Parte Dos" />
+      </div>
+
+      <div class="info">
+        <h1>Dune: Parte Dos</h1>
+        <p class="datos">2024 · Ciencia ficción · 2h 46m</p>
+
+        <div class="puntuacion">
+          <span class="nota">★ 8.8</span>
+          <span class="votos">420K votos</span>
+        </div>
+
+        <a href="favoritos.html" class="btn btn-rojo">
+          <i class="bi bi-heart"></i> Agregar a mi lista
+        </a>
+
+        <h2>Sinopsis</h2>
+        <p>
+          Paul Atreides se une con Chani y los Fremen en un camino de venganza
+          contra quienes destruyeron a su familia. Deberá elegir entre el amor y
+          el destino del universo.
+        </p>
+
+        <h2>Información</h2>
+        <dl class="ficha">
+          <dt>Director</dt>
+          <dd>Denis Villeneuve</dd>
+
+          <dt>Género</dt>
+          <dd>Ciencia ficción / Aventura</dd>
+
+          <dt>Duración</dt>
+          <dd>2h 46m</dd>
+        </dl>
+
+        <h2>Reparto</h2>
+        <ul class="reparto">
+          <li>Timothée Chalamet</li>
+          <li>Zendaya</li>
+          <li>Rebecca Ferguson</li>
+          <li>Javier Bardem</li>
+        </ul>
+
+        <h2>Deja tu reseña</h2>
+
+        <form class="form-resena">
+          <span class="titulo">Tu puntuación</span>
+
+          <div class="estrellas">
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+          </div>
+
+          <span class="ayuda">Selecciona de 1 a 5 estrellas</span>
+
+          <label for="texto" class="titulo fuerte">Tu reseña</label>
+          <textarea
+            id="texto"
+            placeholder="Cuéntanos qué te pareció la película..."
+          ></textarea>
+
+          <div class="enviar">
+            <button type="submit" class="btn btn-rojo">Publicar reseña</button>
+          </div>
+        </form>
+
+        <div class="encabezado-seccion">
+          <h2>Reseñas de otros usuarios</h2>
+          <span>3 reseñas</span>
+        </div>
+
+        <article class="resena">
+          <div class="resena-cabecera">
+            <div class="avatar">A</div>
+            <strong>Carlos Abraham</strong>
+            <span class="estrellas-fijas">★★★★★</span>
+          </div>
+          <p>
+            Visualmente impresionante. La banda sonora y la fotografía están a otro nivel, una secuela que supera a la primera.
+          </p>
+        </article>
+
+        <article class="resena">
+          <div class="resena-cabecera">
+            <div class="avatar">M</div>
+            <strong>Juan Argote</strong>
+            <span class="estrellas-fijas">★★★★☆</span>
+          </div>
+          <p>
+            Muy buena, aunque se siente larga en algunos tramos. El final es espectacular.
+          </p>
+        </article>
+
+        <article class="resena">
+          <div class="resena-cabecera">
+            <div class="avatar">L</div>
+            <strong>Giovanni de Jesús</strong>
+            <span class="estrellas-fijas">★★★★★</span>
+          </div>
+          <p>
+            De lo mejor de ciencia ficción en años. Recomendadísima verla en pantalla grande.
+          </p>
+        </article>
+      </div>
+    </main>
+
+    <footer class="footer-creador">
+      <p>Creado por Carlos Abraham Vazquez Ramirez</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

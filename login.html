@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - CinePolito</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/estilo-angie.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: var(--color-fondo);">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold fs-1" href="index.html">Cine<span class="polito fw-bold fs-1">Polito</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          <a class="nav-link active" aria-current="page" href="indexUR1.html">Explorar</a>
+          <a class="nav-link active" aria-current="page" href="favoritos.html">Mi lista</a>
+          <a class="nav-link active" aria-current="page" href="06_perfil.html">Perfil</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+    <div class="row g-4">
+      
+      <div class="col-12 col-md-6">
+        <div class="tarjeta-perfil p-5 h-100 d-flex flex-column justify-content-between">
+          <div>
+            <h1 class="titulo-form mb-3 fs-1">Tu cine,<br>a tu manera.</h1>
+            <p class="info-secundaria fs-6">Descubre, guarda y organiza tus películas favoritas desde una experiencia pensada para escritorio.</p>
+          </div>
+
+          <div class="p-4 text-center rounded-3 mt-4" style="background-color: var(--bg-imgperfil);">
+            <i class="bi bi-play-circle-fill fs-1" style="color: var(--color-rosa);"></i>
+            <h4 class="titulo-form mt-2 mb-0">OBSESSION</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6">
+        <div class="tarjeta-perfil p-4">
+          <h2 class="titulo-form mb-1">Bienvenido de nuevo</h2>
+          <p class="info-secundaria small mb-4">Inicia sesión para continuar.</p>
+
+          <form action="index.html">
+            <div class="mb-3">
+              <label class="form-label etiquetas">Usuario o correo electrónico</label>
+              <input type="text" class="form-control entrada-datos" placeholder="Tu usuario o correo">
+            </div>
+
+            <div class="mb-2">
+              <label class="form-label etiquetas">Contraseña</label>
+              <input type="password" class="form-control entrada-datos" placeholder="••••••••">
+            </div>
+
+            <div class="text-end mb-4">
+              <a href="#" class="text-decoration-none small fw-bold" style="color: var(--color-rosa);">¿Olvidaste tu contraseña?</a>
+            </div>
+
+            <button type="submit" class="btn btn-rosa w-100 mb-3">Iniciar sesión</button>
+
+            <div class="text-center my-2 info-secundaria small">o</div>
+
+            <button type="button" class="btn btn-gris w-100 mb-4 d-flex align-items-center justify-content-center gap-2">
+              <i class="bi bi-google"></i> Continuar con Google
+            </button>
+
+            <p class="text-center info-secundaria small mb-0">
+              ¿No tienes una cuenta? <a href="registro.html" class="text-decoration-none fw-bold" style="color: var(--color-rosa);">Regístrate</a>
+            </p>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+  <footer class="cine-footer">
+    <div class="container">
+      <p class="mb-0">Cine<span style="color: var(--color-boton-hover);">Polito</span> 2026 — Maria de los Angeles Olmos Valadez</p>
+    </div>
+  </footer>
+
+</body>
+</html>

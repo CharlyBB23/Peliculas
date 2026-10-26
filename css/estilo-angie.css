@@ -1,0 +1,150 @@
+:root{
+    --color-principal: #0f1113;
+    --color-secundario: #800a23;
+    --color-fondo: #0b101b; 
+    --color-texto: #ffffff; 
+    --texto-gris: #9aa4b2;
+    --color-boton-hover: #f63055; 
+    --color-boton: #e73420;
+    --bg-tarjeta: #121826;
+    --borde-tarjeta: #1f293d;
+    --bg-imgperfil: #243047;
+    --bg-entrada: #1a2235; 
+    --borde-entrada: #232d42;
+    --color-rosa: #ff3b5c;
+    --texto-placeholder: #626d7d;
+    --bg-boton-sec: #1e283c;
+    --bg-boton-sec-hover: #283650;
+    --color-borde: #1e293b; 
+    --color-texto-secundario: #94a3b8;
+
+}
+body{
+    background-color: var(--color-fondo) ;
+    color: var(--color-texto);
+    margin: 0;
+    
+}  
+div{
+    color: var(--color-texto);
+}
+nav{
+    background-color: var(--color-principal);
+}
+nav a{
+    color: var(--color-texto);
+}
+.navbar {
+  box-shadow: 0 4px 6px -1px rgba(32, 33, 56, 0.5);
+}
+.navbar-brand .polito{
+    color: var(--color-boton-hover);
+}
+nav a:hover{
+    color: var(--color-boton-hover);
+}
+
+.enlace-volver{
+    color: var(--texto-gris);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.enlace-volver:hover{
+    color: var(--color-texto);
+}
+
+.tarjeta-perfil{
+    background-color: var(--bg-tarjeta);
+    border: 1px solid var(--borde-tarjeta);
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.circulo-imagen{
+    width: 100px;
+    height: 100px;
+    background-color: var(--bg-imgperfil);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--color-texto);
+    margin: 0 auto 16px auto;
+}
+
+.titulo-form {
+  color: var(--color-texto);
+  font-weight: 700;
+}
+
+.info-secundaria {
+  color: var(--texto-gris);
+}
+
+.etiquetas{
+  color: var(--texto-gris);
+  font-size: 14;
+  margin-bottom: 8px;
+}
+
+.entrada-datos {
+  background-color: var(--bg-entrada);
+  border: 1px solid var(--borde-entrada);
+  color: var(--color-texto);
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+
+.entrada-datos:focus {
+  background-color: var(--bg-entrada);
+  border-color: var(--color-rosa);
+  color: var(--color-texto);
+  box-shadow: none;
+}
+
+.entrada-datos::placeholder {
+  color: var(--texto-placeholder);
+}
+
+.btn-rosa {
+  background-color: var(--color-rosa);
+  color: var(--color-texto);
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  padding: 8px 24px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-rosa:hover {
+  background-color: var(--color-rosa-hover);
+  color: var(--color-texto);
+}
+
+.btn-gris {
+  background-color: var(--bg-boton-sec);
+  color: var(--color-texto);
+  border: 1px solid var(--borde-boton-sec);
+  border-radius: 20px;
+  font-weight: 500;
+  padding: 8px 20px;
+  transition: background-color 0.2s ease;
+}
+
+.btn-gris:hover {
+  background-color: var(--bg-boton-sec-hover);
+  color: var(--color-texto);
+}
+
+.cine-footer {
+    background-color: var(--color-fondo);
+    border-top: 1px solid var(--color-borde);
+    padding: 1.5rem 0;
+    margin-top: 4rem;
+    color: var(--color-texto-secundario);
+    font-size: 1rem;
+    text-align: center;
+}

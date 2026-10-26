@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinePolito-Mi lista</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark px-4 py-3 sticky-top" data-bs-theme="dark" style="background-color: var(--color-fondo);">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold fs-1" href="index.html">Cine<span class="polito fw-bold fs-1">Polito</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" href="index.html">Inicio</a>
+        <a class="nav-link" href="indexUR1.html">Explorar</a>
+        <a class="nav-link active" aria-current="page" href="favoritos.html">Mi lista</a>
+        <a class="nav-link" href="06_perfil.html">Perfil</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    <main class="contenedor">
+      <section class="titulo-pagina">
+        <h1>Mi lista</h1>
+        <p>Películas que guardaste para ver después.</p>
+      </section>
+
+      <div class="pestanas">
+        <a href="#" class="activo">Películas</a>
+        <a href="#">Series</a>
+        <a href="#">Listas</a>
+      </div>
+
+      <section class="lista-peliculas">
+        <article class="guardada">
+          <img src="images/dune-parte-dos.jpg" alt="Dune: Parte Dos" />
+          <h3>Dune: Parte Dos</h3>
+          <p class="genero">2024 · Sci-Fi</p>
+          <span class="nota">★ 8.8</span><br />
+          <a href="#" class="btn-guardada"><i class="bi bi-check2"></i> Guardada</a>
+        </article>
+
+        <article class="guardada">
+          <img src="images/interstellar.jpg" alt="Interstellar" />
+          <h3>Interstellar</h3>
+          <p class="genero">2014 · Drama</p>
+          <span class="nota">★ 8.6</span><br />
+          <a href="#" class="btn-guardada"><i class="bi bi-check2"></i> Guardada</a>
+        </article>
+
+        <article class="guardada">
+          <img src="images/batman.jpg" alt="The Batman" />
+          <h3>The Batman</h3>
+          <p class="genero">2022 · Acción</p>
+          <span class="nota">★ 7.8</span><br />
+          <a href="#" class="btn-guardada"><i class="bi bi-check2"></i> Guardada</a>
+        </article>
+
+        <article class="guardada">
+          <img src="images/inception.jpg" alt="Inception" />
+          <h3>Inception</h3>
+          <p class="genero">2010 · Sci-Fi</p>
+          <span class="nota">★ 8.8</span><br />
+          <a href="#" class="btn-guardada"><i class="bi bi-check2"></i> Guardada</a>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer-creador">
+      <p>Creado por Carlos Abraham Vazquez Ramirez</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

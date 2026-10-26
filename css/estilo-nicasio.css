@@ -1,0 +1,227 @@
+:root{
+    --color-principal: #0f1113;
+    --color-secundario: #800a23;
+    --color-fondo: #0b101b; 
+    --color-texto: #ffffff; 
+    --color-boton-hover: #f63055; 
+    --color-boton: #e73420;
+    
+    /* variables para la tabla y contenedores */
+    --color-tarjeta: #131926;
+    --color-borde: #1e293b;
+    --color-texto-secundario: #94a3b8;
+    --color-avatar-bg: #1e293b;
+}
+
+body{
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    margin: 0;
+}  
+
+div{
+    color: var(--color-texto);
+}
+
+nav{
+    background-color: var(--color-principal);
+}
+
+nav a{
+    color: var(--color-texto);
+}
+
+.navbar {
+  box-shadow: 0 4px 6px -1px var(--color-borde);
+}
+
+.navbar-brand .polito{
+    color: var(--color-boton-hover);
+}
+
+nav a:hover{
+    color: var(--color-boton-hover);
+}
+
+
+
+.cine-titulo {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: var(--color-texto);
+    margin-bottom: 0.2rem;
+}
+
+.cine-subtitulo {
+    color: var(--color-texto-secundario);
+    font-size: 0.95rem;
+    margin-bottom: 0;
+}
+
+
+.cine-search-input {
+    background-color: #161d2d !important;
+    border: 1px solid var(--color-borde) !important;
+    color: var(--color-texto) !important;
+    border-radius: 8px;
+    padding: 0.65rem 1rem;
+}
+
+.cine-search-input::placeholder {
+    color: var(--color-texto-secundario) !important;
+}
+
+.cine-search-input:focus {/*Permite el efecto de sombra al selecionar mi buscador*/
+    border-color: var(--color-secundario) !important;
+    box-shadow: 0 0 0 0.25rem rgba(246, 48, 85, 0.2) !important;/*puse important para que tome el color que se le 
+    esta dando y no tome el que bootstrap por defecto*/
+}
+
+
+.cine-tarjeta-contenedor {
+    background-color: var(--color-tarjeta);
+    border: 1px solid var(--color-borde);
+    border-radius: 12px;
+    padding: 1.5rem;
+}
+
+
+.cine-tabla {
+    width: 100%;
+    color: var(--color-texto-secundario);
+    border-collapse: collapse;/*esta une los bordes separados de las celdas*/
+}
+
+.cine-tabla th {
+    color: var(--color-texto-secundario);
+    font-weight: 500;
+    font-size: 0.875rem;
+    border-bottom: 1px solid var(--color-borde);
+    padding-bottom: 1rem;
+    text-align: left;
+}
+
+.cine-tabla td {
+    border-bottom: 1px solid var(--color-borde);
+    padding: 1.1rem 0.5rem;
+    vertical-align: middle;
+}
+
+.cine-tabla tr:last-child td {
+    border-bottom: none;
+}
+
+/* elementos de ka tabla(internos) */
+.cine-avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: var(--color-avatar-bg);
+    color: var(--color-texto-secundario);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.cine-usuario-nombre {
+    font-weight: 600;
+    color: var(--color-texto);
+}
+
+.cine-btn-editar {
+    color: var(--color-texto-secundario);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.cine-btn-editar:hover {
+    color: var(--color-texto);
+}
+
+.cine-btn-opciones {
+    color: var(--color-texto-secundario);
+    background: transparent;
+    border: none;
+    padding: 0 0.5rem;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.cine-btn-opciones:hover {
+    color: var(--color-texto);
+}
+
+
+/*estilo para mi indexA2.html*/
+.cine-input-editar {
+    background-color: #101520 !important;
+    border: 1px solid var(--color-borde) !important;
+    color: var(--color-texto) !important;
+    border-radius: 8px;
+    padding: 0.65rem 1rem;
+}
+
+.cine-btn-cancelar {
+    background-color: transparent;
+    color: var(--color-texto-secundario);
+    border: 1px solid var(--color-borde);
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+.cine-btn-cancelar:hover {
+    background-color: var(--color-borde);
+    color: var(--color-texto);
+}
+.cine-btn-guardar {
+    background-color: var(--color-boton);
+    color: var(--color-texto);
+    border: none;
+    border-radius: 8px;
+    font-weight: 500; 
+}
+
+.cine-btn-guardar:hover {
+    background-color: var(--color-boton-hover);
+    color: var(--color-texto);
+}
+.cine-input-editar::placeholder {
+    color: #cbd5e1 !important; 
+    opacity: 0.4 !important;     
+}
+
+/*indexUR1.html*/
+.cine-btn-ver {
+    background-color: #1a2333;
+    color: var(--color-texto);
+    border: 1px solid var(--color-borde);
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.cine-btn-ver:hover {
+    background-color: var(--color-secundario);
+    color: var(--color-texto);
+    border-color: var(--color-secundario);
+}
+
+/*Pie de pagina*/
+.cine-footer {
+    background-color: var(--color-fondo);
+    border-top: 1px solid var(--color-borde);
+    padding: 1.5rem 0;
+    margin-top: 4rem;
+    color: var(--color-texto-secundario);
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .cine-tarjeta-contenedor {
+        padding: 1rem;
+    }
+}

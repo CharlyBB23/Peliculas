@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinePolito-Usuarios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/estilo-nicasio.css">
+    
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark px-4 py-3 sticky-top" data-bs-theme="dark" style="background-color: var(--color-fondo);">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold fs-1" href="indexA1.html">Cine<span class="polito fw-bold fs-1">Polito</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        
+        <a class="nav-link active" aria-current="page" href="indexA1.html">Usuarios</a>
+        <a class="nav-link active" aria-current="page" href="10_Estadisticas.html">Estadísticas</a> <!--vincular al html que corresponda-->
+        <a class="nav-link active" aria-current="page" href="11_AgregarPelicula.html">Agregar Película</a> <!--vincular al html que corresponda-->
+
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="container mt-5 mb-5">
+
+    <!-- encabezado y buscador -->
+    <div class="row align-items-center mb-4 g-3">
+      <div class="col-12 col-md-8">
+        <h2 class="cine-titulo">Usuarios registrados</h2>
+        <p class="cine-subtitulo">Administra las cuentas registradas.</p>
+      </div>
+      <div class="col-12 col-md-4">
+        <input type="text" class="form-control cine-search-input" placeholder="Buscar usuario">
+      </div>
+    </div>
+   
+    <!-- tabla de los usuarios -->
+    <div class="cine-tarjeta-contenedor" id="usuarios">
+      <div class="table-responsive">
+        <table class="cine-tabla">
+          <thead>
+            <tr>
+              <th style="min-width: 200px;">Usuario</th>
+              <th style="min-width: 220px;">Correo</th>
+              <th style="min-width: 150px;">Contraseña</th>
+              <th class="text-end" style="min-width: 120px;">Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            
+            <tr>
+              <td>
+                <div class="d-flex align-items-center gap-3">
+                  <div class="cine-avatar">A</div>
+                  <span class="cine-usuario-nombre">Carlos Abraham</span>
+                </div>
+              </td>
+              <td>CarlosAVR@email.com</td>
+              <td>••••••••</td>
+              <td class="text-end">
+                <a href="indexA2.html" class="cine-btn-editar me-3">Editar</a>
+                <button class="cine-btn-opciones" aria-label="Opciones"><i class="bi bi-three-dots-vertical"></i></button>
+              </td>
+            </tr>
+
+            
+            <tr>
+              <td>
+                <div class="d-flex align-items-center gap-3">
+                  <div class="cine-avatar">C</div>
+                  <span class="cine-usuario-nombre">José de Jesús</span>
+                </div>
+              </td>
+              <td>JoseeJ@email.com</td>
+              <td>••••••••</td>
+              <td class="text-end">
+                <a href="indexA2.html" class="cine-btn-editar me-3">Editar</a>
+                <button class="cine-btn-opciones" aria-label="Opciones"><i class="bi bi-three-dots-vertical"></i></button>
+              </td>
+            </tr>
+
+            
+            <tr>
+              <td>
+                <div class="d-flex align-items-center gap-3">
+                  <div class="cine-avatar">F</div>
+                  <span class="cine-usuario-nombre">María de los Ángeles</span>
+                </div>
+              </td>
+              <td>mariaOLV@email.com</td>
+              <td>••••••••</td>
+              <td class="text-end">
+                <a href="indexA2.html" class="cine-btn-editar me-3">Editar</a>
+                <button class="cine-btn-opciones" aria-label="Opciones"><i class="bi bi-three-dots-vertical"></i></button>
+              </td>
+            </tr>
+
+            
+            <tr>
+              <td>
+                <div class="d-flex align-items-center gap-3">
+                  <div class="cine-avatar">L</div>
+                  <span class="cine-usuario-nombre">Giovanni de Jesús</span>
+                </div>
+              </td>
+              <td>TeposHOT@gmail.com</td>
+              <td>••••••••</td>
+              <td class="text-end">
+                <a href="indexA2.html" class="cine-btn-editar me-3">Editar</a>
+                <button class="cine-btn-opciones" aria-label="Opciones"><i class="bi bi-three-dots-vertical"></i></button>
+              </td>
+            </tr>
+
+            
+            <tr>
+              <td>
+                <div class="d-flex align-items-center gap-3">
+                  <div class="cine-avatar">M</div>
+                  <span class="cine-usuario-nombre">Juan Argote</span>
+                </div>
+              </td>
+              <td>Juan6969@gmail.com</td>
+              <td>••••••••</td>
+              <td class="text-end">
+                <a href="indexA2.html" class="cine-btn-editar me-3">Editar</a>
+                <button class="cine-btn-opciones" aria-label="Opciones"><i class="bi bi-three-dots-vertical"></i></button>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+</main>
+
+<footer class="cine-footer">
+      <div class="container ">
+        <p class="mb-0">Cine<span style="color: var(--color-boton-hover);">Polito</span> 2026 — Jose de Jesus Nicasio Torres</p>
+      </div>
+    </footer>
+   
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

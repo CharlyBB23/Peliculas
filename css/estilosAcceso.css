@@ -1,0 +1,87 @@
+:root {
+  --color-principal: #0f1113;
+  --color-secundario: #800a23;
+  --color-fondo: #0b101b; 
+  --color-texto: #ffffff; 
+  --texto-gris: #9aa4b2;
+  --color-boton-hover: #f63055; 
+  --color-boton: #e73420;
+  --bg-tarjeta: #121826;
+  --borde-tarjeta: #1f293d;
+  --bg-imgperfil: #243047;
+  --bg-entrada: #1a2235; 
+  --borde-entrada: #232d42;
+  --color-rosa: #ff3b5c;
+  --texto-placeholder: #626d7d;
+  --bg-boton-sec: #1e283c;
+  --bg-boton-sec-hover: #283650;
+  --color-borde: #1e293b; 
+  --color-texto-secundario: #94a3b8;
+  --bg-formulario: #f8fafc;
+  --color-texto-oscuro: #0f172a;
+}
+
+.tarjeta-acceso {
+  background-color: var(--bg-tarjeta);
+  border: 1px solid var(--borde-tarjeta);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.columna-formulario {
+  background-color: var(--bg-formulario);
+  color: var(--color-texto-oscuro);
+  padding: 32px;
+}
+
+.titulo-oscuro {
+  color: var(--color-texto-oscuro);
+  font-weight: 700;
+}
+
+.subtitulo-oscuro {
+  color: var(--texto-placeholder);
+}
+
+.etiqueta-oscura {
+  color: var(--color-texto-oscuro);
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.entrada-clara {
+  background-color: var(--color-texto);
+  border: 1px solid var(--texto-gris);
+  color: var(--color-texto-oscuro);
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+
+.entrada-clara:focus {
+  background-color: var(--color-texto);
+  border-color: var(--color-rosa);
+  color: var(--color-texto-oscuro);
+  box-shadow: none;
+}
+
+.btn-google {
+  background-color: var(--color-texto);
+  color: var(--color-texto-oscuro);
+  border: 1px solid var(--texto-gris);
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 10px;
+  width: 100%;
+}
+
+.btn-google:hover {
+  background-color: var(--bg-formulario);
+}
+
+.caja-beneficios {
+  background-color: var(--color-texto);
+  border: 1px solid var(--texto-gris);
+  border-radius: 8px;
+  padding: 16px;
+}

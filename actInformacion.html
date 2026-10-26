@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinePolito-Mis datos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/estilo-angie.css">
+    
+</head>
+<body>
+<nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: var(--color-fondo);">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold fs-1" href="index.html">Cine<span class="polito fw-bold fs-1">Polito</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        
+        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        <a class="nav-link active" aria-current="page" href="indexUR1.html">Explorar</a>
+        <a class="nav-link active" aria-current="page" href="favoritos.html">Mi lista</a>
+        <a class="nav-link active" aria-current="page" href="06_perfil.html">Perfil</a>
+
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="container my-3">
+  <div class="mb-4">
+    <a href="06_perfil.html" class="enlace-volver">Volver al perfil</a>
+    <h1 class="titulo-form mt-2" >Mis datos</h1>
+  </div>
+
+  <div class="row g-4">
+
+    <div class="col-12 col-md-4">
+      <div class="tarjeta-perfil text-center d-flex flex-column align-items-center justify-content-center h-100">
+        <div class="circulo-imagen"><i class="bi bi-person-fill"></i></div>
+        <h4 class="titulo-secunadrio mb-1">Usuario123</h4>
+        <p class="info-secundaria small mb-4">userGiovanni@gmail.com</p>
+        <button type="button" class="btn btn-gris btn-sm">Cambiar foto</button>
+      </div>
+    </div>
+
+  <div class="col-12 col-md-8">
+    <div class="tarjeta-perfil">
+      <form action="06_perfil.html">
+        <h5 class="titulo-form  mb-3">Información personal</h5>
+
+          <div class="row g-3 mb-4">
+              <div class="col-12 col-md-6">
+                <label class="form-label etiquetas">Nombre de usuario</label>
+                <input type="text" class="form-control entrada-datos" value="Usuario123">
+              </div>
+              
+              <div class="col-12 col-md-6">
+                <label class="form-label etiquetas">Nombre completo</label>
+                <input type="text" class="form-control entrada-datos" value="Giovanni de Jesús">
+              </div>
+
+              <div class="col-12">
+                <label class="form-label etiquetas">Correo electrónico</label>
+                <input type="email" class="form-control entrada-datos" value="TeposOG@gmail.com">
+              </div>
+            </div>
+
+            <h5 class="titulo-form mb-3">Cambiar contraseña</h5>
+
+            <div class="row g-3 mb-4">
+              <div class="col-12">
+                <label class="form-label etiquetas">Contraseña actual</label>
+                <input type="password" class="form-control entrada-datos" placeholder="Ingresa tu contraseña actual">
+              </div>
+
+              <div class="col-12 col-md-6">
+                <label class="form-label etiquetas">Nueva contraseña</label>
+                <input type="password" class="form-control entrada-datos" placeholder="Nueva contraseña">
+              </div>
+
+              <div class="col-12 col-md-6">
+                <label class="form-label etiquetas">Confirmar contraseña</label>
+                <input type="password" class="form-control entrada-datos" placeholder="Repite la contraseña">
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-end gap-3 pt-2">
+              <a href="06_perfil.html" class="btn btn-gris">Cancelar</a>
+              <button type="submit" class="btn btn-rosa">Guardar cambios</button>
+            </div>
+
+      </form>
+    </div>
+  </div>
+  </div>
+
+</main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+  <footer class="cine-footer">
+      <div class="container">
+        <p class="mb-0">Cine<span style="color: var(--color-boton-hover);">Polito</span> 2026 — Maria de los Angeles Olmos Valadez</p>
+      </div>
+    </footer>
+  </body>
+</html>

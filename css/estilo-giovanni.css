@@ -1,0 +1,227 @@
+:root{
+    --color-principal: #0f1113;
+    --color-secundario: #800a23;
+    --color-fondo: #0b101b; 
+    --color-texto: #ffffff; 
+    --color-boton-hover: #f63055; 
+    --color-boton: #e73420;
+    --color-borde: #1e293b;  
+    --color-texto-secundario: #94a3b8; 
+
+}
+body{
+    background-color: var(--color-fondo) ;
+    color: var(--color-texto);
+    margin: 0;
+    
+}  
+div{
+    color: var(--color-texto);
+}
+nav{
+    background-color: var(--color-principal);
+}
+nav a{
+    color: var(--color-texto);
+}
+.navbar {
+  box-shadow: 0 4px 6px -1px rgba(32, 33, 56, 0.5);
+}
+.navbar-brand .polito{
+    color: var(--color-boton-hover);
+}
+nav a:hover{
+    color: var(--color-boton-hover);
+}
+.cine-footer {
+    background-color: var(--color-fondo);
+    border-top: 1px solid var(--color-borde);
+    padding: 1.5rem 0;
+    margin-top: 4rem;
+    color: var(--color-texto-secundario);
+    font-size: 1rem;
+    text-align: center;
+}
+.caja {
+    background-color: var(--color-borde);
+    border: 1px solid var(--color-borde);
+    border-radius: 16px;
+}
+
+.avatar {
+    width: 110px;
+    height: 110px;
+    background-color: var(--color-fondo);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.dato {
+    background-color: var(--color-borde);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.item {
+    background-color: var(--color-borde);
+    border: 1px solid var(--color-borde);
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.item:hover {
+    background-color: var(--color-borde);
+    color: white;
+}
+
+.salir {
+    background-color: var(--color-secundario);
+    color: var(--color-boton);
+    border: none;
+    font-weight: bold;
+}
+
+.salir:hover {
+    background-color: var(--color-secundario);
+    color: var(--color-boton);
+}
+.btn-limpiar {
+    background-color: var(--color-secundario);
+    color: var(--color-boton-hover);
+    border: none;
+    font-weight: bold;
+}
+
+.btn-limpiar:hover {
+    background-color: var(--color-boton);
+    color: var(--color-texto);
+}
+
+.historial {
+    background-color: var(--color-principal);
+    border: 1px solid var(--color-borde);
+    border-radius: 12px;
+}
+
+.icono {
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-borde);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.icono i {
+    color: var(--color-texto-secundario);
+    font-size: 1.2rem;
+}
+
+.cerrar {
+    background: none;
+    border: none;
+    color: var(--color-texto-secundario);
+    font-size: 1.2rem;
+}
+
+.cerrar:hover {
+    color: var(--color-boton-hover);
+}
+.card-form {
+    background-color: var(--color-principal);
+    border: 1px solid var(--color-borde);
+    border-radius: 16px;
+}
+
+.caja-imagen {
+    border: 2px dashed var(--color-borde);
+    border-radius: 12px;
+    background-color: var(--color-principal);
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-texto-secundario);
+    text-align: center;
+}
+
+.campo {
+    background-color: var(--color-fondo);
+    border: 1px solid var(--color-borde);
+    color: var(--color-texto);
+}
+
+.campo:focus {
+    background-color: var(--color-fondo);
+    border-color: var(--color-boton-hover);
+    color: var(--color-texto);
+    box-shadow: none;
+}
+
+.campo::placeholder {
+    color: var(--color-texto-secundario);
+}
+
+.btn-regresar {
+    background-color: transparent;
+    color: var(--color-texto);
+    border: 1px solid var(--color-borde);
+    font-weight: bold;
+}
+
+.btn-regresar:hover {
+    background-color: var(--color-borde);
+    color: var(--color-texto);
+}
+
+.btn-enviar {
+    background-color: var(--color-secundario);
+    color: var(--color-boton-hover);
+    border: none;
+    font-weight: bold;
+}
+
+.btn-enviar:hover {
+    background-color: var(--color-boton);
+    color: var(--color-texto);
+}
+.card-stats {
+    background-color: var(--color-principal);
+    border: 1px solid var(--color-borde);
+    border-radius: 8px;
+}
+
+.caja-stats {
+    border: 2px dashed var(--color-borde);
+    border-radius: 8px;
+    background-color: var(--color-fondo);
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.foto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 180px;
+}
+
+.caja-grafica {
+    border: none;
+}
+
+.item-stats {
+    background-color: var(--color-fondo);
+    border: 1px solid var(--color-borde);
+    border-radius: 6px;
+}
